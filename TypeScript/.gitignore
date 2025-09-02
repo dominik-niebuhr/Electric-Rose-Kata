@@ -24,3 +24,4 @@ test/**/*.js.map
 
 # Playwright
 **/playwright/**/playwright-report
+**/playwright/test-results/
