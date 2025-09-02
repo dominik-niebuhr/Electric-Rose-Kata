@@ -21,3 +21,6 @@ test/**/*.js.map
 .idea
 *.iml
 *.iwr
+
+# Playwright
+**/playwright/**/playwright-report

@@ -1,14 +1,15 @@
 {
-  "name": "electric-rose",
+  "name": "@electric-rose/mocha-tests",
   "version": "1.0.0",
-  "description": "Electric Rose Battery Tracker",
-  "scripts": {
-    "compile": "tsc",
-    "start": "./node_modules/.bin/ts-node app/app.ts",
-    "test": "mocha -r ts-node/register '**/*.spec.ts'"
-  },
+  "description": "Electric Rose Battery Tracker - Mocha Tests",
   "author": "Peter 'Code Cop' Kofler",
   "license": "BSD-3-Clause",
+  "scripts": {
+    "test": "mocha -r ts-node/register '**/*.spec.ts'"
+  },
+  "dependencies": {
+    "@electric-rose/app": "file:../../app"
+  },
   "devDependencies": {
     "@types/chai": "5.2.2",
     "@types/mocha": "10.0.10",
