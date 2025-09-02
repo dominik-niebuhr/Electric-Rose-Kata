@@ -1,4 +1,5 @@
 import { Battery, ElectricRose } from "./electric-rose";
+import * as process from "process";
 
 console.log("BZZ ZZZ!");
 
@@ -9,7 +10,7 @@ const batteries = [
 
 const app = new ElectricRose(batteries);
 
-var times = 2;
+let times = 2;
 if (process.argv.length > 2) {
   times = parseInt(process.argv[2]) + 1;
 }
