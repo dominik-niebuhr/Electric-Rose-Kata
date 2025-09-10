@@ -5,7 +5,7 @@
   "scripts": {
     "compile": "tsc",
     "start": "./node_modules/.bin/ts-node app/app.ts",
-    "test": "mocha -r ts-node/register '**/*.spec.ts'"
+    "test": "mocha"
   },
   "author": "Peter 'Code Cop' Kofler",
   "license": "BSD-3-Clause",
