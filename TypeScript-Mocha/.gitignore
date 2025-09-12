@@ -1,0 +1,23 @@
+.DS_Store
+
+node_modules
+package-lock.json
+typings
+coverage
+.nyc_output
+.stryker-tmp
+
+app/**/*.js
+app/**/*.js.map
+test/**/*.js
+test/**/*.js.map
+
+# Eclipse
+.project
+.settings
+.classpath
+
+# IDEA
+.idea
+*.iml
+*.iwr

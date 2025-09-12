@@ -1,5 +1,5 @@
+import {Battery, ElectricRose} from "../app/electric-rose";
 import { expect } from "chai";
-import { Battery, ElectricRose } from "@electric-rose/app";
 
 describe("Electric Rose", function () {
   it("should foo", function () {

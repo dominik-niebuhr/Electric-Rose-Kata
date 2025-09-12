@@ -1,5 +1,6 @@
 import { test, expect } from "@playwright/test";
-import { Battery, ElectricRose } from "@electric-rose/app";
+import {Battery, ElectricRose} from "../app/electric-rose";
+
 
 test.describe("Electric Rose", () => {
   test("should foo", async () => {
